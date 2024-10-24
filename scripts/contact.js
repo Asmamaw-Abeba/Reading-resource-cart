@@ -14,7 +14,7 @@ const social_links = `
   </div>
 
   <div class="social-media">
-    <a href="https://www.twitter.com/">
+    <a href="mailto:asmeabeba12@gmail.com">
       <img class="twitter-icon" src="logos/email.png" alt="">
     </a>
     <button class="tooltip-button">Email</button>
@@ -42,7 +42,7 @@ const social_links = `
   </div>
 
   <div class="social-media js-red">
-    <a href="https://www.youtube.com/">
+    <a href="https://www.youtube.com/@AsmeAbeba">
       <img class="youtube-icon" src="logos/youtube-log.png" alt="">
     </a>
     <button class="tooltip-button">YouTube</button>
@@ -63,14 +63,14 @@ const social_links = `
   </div>
 
   <div class="social-media">
-    <a href="https://www.twitter.com/">
+    <a href="https://x.com/asme_abeba">
       <img class="twitter-icon" src="logos/twitter.png" alt="">
     </a>
     <button class="tooltip-button">Twitter</button>
   </div>
 
   <div class="social-media">
-    <a href="https://www.twitter.com/">
+    <a href="https://www.linkedin.com/in/asmamaw-abeba-439667334/">
       <img class="twitter-icon" src="logos/linkdin.png" alt="">
     </a>
     <button class="tooltip-button">Linkdin</button>
