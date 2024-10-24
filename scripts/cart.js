@@ -116,17 +116,17 @@ document.querySelector('.js-next-button-1')
 
   function inputValidate() {
     if (userName === '') {
-      alert('Please fill your name!');
+      nameInput.placeholder = 'please fill your name';
       nameInput.value = '';
       nameInput.focus();
       return false;
     } else if (password === '') {
-      alert('Please fill your password!');
+      passwordInput.placeholder = 'please fill your password';
       passwordInput.value = '';
       passwordInput.focus();
       return false;
     }else if (phone === '') {
-      alert('Please fill your phone number');
+      phoneInput.placeholder = 'Please fill your phone number';
       phoneInput.value = '';
       phoneInput.focus();
       return false;
