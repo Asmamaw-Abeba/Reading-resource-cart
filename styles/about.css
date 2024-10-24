@@ -1,0 +1,33 @@
+
+
+.about-description {
+  letter-spacing: 1px;
+  font-style: italic;
+  text-shadow: rgba(5, 5, 8, 0.15);
+  font-weight: 500;
+  
+}
+
+.name-span {
+  color: blue;
+  text-transform: capitalize;
+
+}
+
+.about-profile-picture {
+  height: 300px;
+  border-radius: 25px;
+}
+
+  @media (max-width: 600px) {
+    .about-profile-picture {
+      height: 180px;
+      border-radius: 90px;
+    }
+  }
+
+
+
+
+
+

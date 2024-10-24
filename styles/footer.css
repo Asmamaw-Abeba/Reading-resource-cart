@@ -1,0 +1,30 @@
+.footer {
+  background-color: rgb(241, 241, 241);
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+  margin-top: 230px;
+  /* margin-bottom: 10px; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-data {
+  color: gray;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: normal;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-one {
+  margin-bottom: 0px;
+}

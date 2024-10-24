@@ -1,0 +1,170 @@
+.user-data {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 24px;
+  margin-left: 24px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.profiles {
+ margin-right: 18px;
+}
+
+.about-u {
+  background-color: white;
+  padding: 8px 25px;
+  border-radius: 30px;
+  width: 60%;
+  color: rgb(0, 69, 19);
+}
+
+
+.profile-picture {
+  height: 180px;
+  border-radius: 90px;
+}
+
+.add-courses, 
+.contact-button,
+.about-button {
+  padding: 8px 18px;
+  background-color: green;
+  color: white;
+  border-radius: 25px;
+  transition: opacity 1s;
+  white-space: nowrap;
+}
+
+.add-courses:hover,
+.about-button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.download-file {
+  margin-bottom: 5px;
+  color: rgb(209, 25, 90);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+/* make responsive a website */
+@media (max-width: 560px) {
+  .menu {
+    margin-left: -24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .menu {
+    opacity: 1;
+  }
+
+  .right-section {
+    opacity: 0;
+  }
+
+  .menu-icon:hover {
+    cursor: pointer;
+  }
+
+
+  .menu:hover .menu-bar .menu-bar-section {
+    opacity: 1;
+  }
+
+  .user-data {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profiles{
+    margin-bottom: 18px;
+   }
+
+  .about-u {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 750px) {
+  .right-section {
+   column-gap: 10px;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width:750px) and (max-width:999px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+
+
+.social-media {
+  background-color: white;
+  color: white;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.contacts {
+  color: black;
+}
+
+.youtube-icon,
+.instagram-icon,
+.tiktok-icon,
+.twitter-icon {
+  height: 100px;
+}
+
+.tooltip-button {
+  position: absolute;
+  bottom: 8px;
+  right: 10px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none; /* to prevent hovering effect on tooltip*/
+  white-space: nowrap; /* to prevent tooltip text wrapping */
+}
+
+.social-media:hover .tooltip-button {
+  opacity: 1;
+}

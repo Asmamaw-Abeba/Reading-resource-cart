@@ -1,0 +1,30 @@
+.login-data {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.input-data {
+  margin-bottom: 10px;
+}
+
+/* .next-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.next-button {
+  padding: 6px 18px;
+  background-color: gray;
+  color: white;
+}
+
+.js-next-button-2 {
+  margin-top: 10px;
+}
+
+.new-profile {
+  height: 180px;
+  border-radius: 90px;
+}
